@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "automod",
+  "version": "1.0.0",
+  "name": "AutoMod",
+  "description": "AutoTotem + AutoCart với menu RShift",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main":   ["com.automod.AutoMod"],
+    "client": ["com.automod.AutoModClient"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  }
+}
